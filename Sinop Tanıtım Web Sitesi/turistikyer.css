@@ -1,0 +1,417 @@
+body{
+    background-image: url(turistikyerler/yerler_arkaplan.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#banner{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+}
+#logo{
+    background-image: url(anasayfa/logo.png);
+    width: 280px;
+    height: 120px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#menu_alt_kisim{
+    position: absolute;
+    background-repeat: repeat-x;
+    left: 320px;
+    top: 0px;
+}
+#anasayfa_sol{
+    background-image: url(turistikyerler/ust_menu_sol.png);
+    height: 92px;
+    position: absolute;
+    width: 39px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+}
+#anasayfa_orta{
+    background-image: url(turistikyerler/ust_menu_orta.png);
+    position: absolute;
+    height: 92px;
+    width: 900px;
+    left: 39px;
+    margin-top: 40px;
+    background-repeat: repeat-x;
+}
+#menu_anasayfa_anasayfa{
+    position: absolute;
+    margin-left: 50px;
+    float: left;
+}
+#menu_anasayfa_anasayfa_sol{
+    background-image: url(fotografgalerisi/fotogaleri_menu_anasayfa_sol.png);
+    height: 63px;
+    width: 23px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    float: left;
+}
+#menu_anasayfa_anasayfa_orta{
+    background-image: url(fotografgalerisi/fotogaleri_menu_anasayfa_orta.png);
+    height: 63px;
+    width: 160px;
+    left: 20px;
+    position: absolute;
+    background-repeat: repeat-x;
+    margin-top: 15px;
+    float: left;
+}
+#menu_anasayfa_anasayfa_sağ{
+    background-image: url(fotografgalerisi/fotogaleri_menu_anasayfa_sag.png);
+    height: 63px;
+    width: 160px;
+    left: 180px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    float: left;
+}
+#menu_anasayfa_fotogaleri{
+    margin-left: 100px;
+    position: absolute;
+    height: 63px;
+    margin-top: 15px;
+    float: left;
+    left: 200px;
+}
+#menu_anasayfa_fotogaleri_sol{
+    background-image: url(anasayfa/menu_foto_sol.png);
+    width: 23px;
+    height: 63px;
+    background-repeat: no-repeat;
+    float: left;
+}
+#menu_anasayfa_fotogaleri_orta{
+    background-image: url(anasayfa/menu_foto_orta.png);
+    height: 63px;
+    width: 200px;
+    left: 23px;
+    position: absolute;
+    background-repeat: repeat-x;
+    float: left;
+}
+#menu_anasayfa_fotogaleri_sağ{
+    background-image: url(anasayfa/menu_foto_sağ.png);
+    width: 23px;
+    height: 63px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    float: left;
+}
+#menu_anasayfa_turistikyer{
+    margin-left: 100px;
+    position: absolute;
+    height: 63px;
+    margin-top: 15px;
+    float: left;
+    left: 490px;
+}
+#menu_anasayfa_tyer_orta{
+    background-image: url(turistikyerler/yer_menu_yer_orta.png);
+    height: 63px;
+    width: 200px;
+    left: 23px;
+    position: absolute;
+    background-repeat: repeat-x;
+    float: left;
+}
+#menu_anasayfa_tyer_sağ{
+    background-image: url(turistikyerler/yer_menu_yer_sag.png);
+    width: 23px;
+    height: 63px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    float: left;
+}
+#menu_anasayfa_tyer_sol{
+    background-image: url(turistikyerler/yer_menu_yer_sol.png);
+    width: 23px;
+    height: 63px;
+    background-repeat: no-repeat;
+    float: left;
+}
+a{
+    font-size: 24px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    float:left;
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:visited:hover{
+    color: blue;
+}
+#anasayfa_sag{
+    background-image: url(turistikyerler/ust_menu_sağ.png);
+    height: 92px;
+    position: relative;
+    left: 939px;
+    width: 39px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+}
+#yerler_alt_kisim_1{
+    float: left;
+    position: absolute;
+    width: 415px;
+    height: 515px;
+}
+#yerler_alt_kisim_1_ust{
+    background-image: url(turistikyerler/yer_ilk_ust.png);
+    width: 416px;
+    height: 64px;
+    margin-top: 200px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#yerler_sinop_cezaevi_foto{
+    background-image: url(turistikyerler/yer_cezaevi.png);
+    width: 280px;
+    height: 145px;
+    margin-top: 30px;
+    margin-left: 60px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#yerler_alt_kisim_1_orta{
+    background-image: url(turistikyerler/yer_ilk_orta.png);
+    width: 416px;
+    height: 486px;
+    margin-top: 264px;
+    margin-left: 10px;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+#yerler_mavi_kutu_1{
+    width: 381px;
+    height: 311px;
+    position: absolute;
+}
+#yerler_mavi_kutu_1_ust{
+    background-image: url(turistikyerler/yer_yer_ust.png);
+    width: 382px;
+    height: 35px;
+    margin-top: 120px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#yerler_mavi_kutu_1_orta{
+    background-image: url(turistikyerler/yer_yer_orta.png);
+    width: 382px;
+    height: 343px;
+    margin-top: 155px;
+    margin-left: 20px;
+    background-repeat:repeat-y;
+    position: absolute;
+    z-index: 2;
+}
+#yerler_mavi_kutu_1_alt{
+    background-image: url(turistikyerler/yer_yer_alt.png);
+    width: 382px;
+    height: 35px;
+    margin-top: 498px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+h4{
+    font-size: 12px;
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    z-index: 2;
+}
+#yerler_alt_kisim_1_alt{
+    background-image: url(turistikyerler/yer_ilk_alt.png);
+    width: 416px;
+    height: 64px;
+    margin-top: 750px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#yerler_alt_kisim_2{
+    float: left;
+    position: absolute;
+    width: 415px;
+    height: 515px;
+}
+#yerler_alt_kisim_2_ust{
+    background-image: url(turistikyerler/yer_ilk_ust.png);
+    width: 416px;
+    height: 64px;
+    margin-top: 200px;
+    margin-left: 460px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#yerler_erfelek_selalesi{
+    background-image: url(turistikyerler/yer_erfelekselaleleri.png);
+    width: 280px;
+    height: 145px;
+    margin-top: 30px;
+    margin-left: 60px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#yerler_alt_kisim_2_orta{
+    background-image: url(turistikyerler/yer_ilk_orta.png);
+    width: 416px;
+    height: 486px;
+    margin-top: 264px;
+    margin-left: 460px;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+#yerler_mavi_kutu_2{
+    width: 381px;
+    height: 311px;
+    position: absolute;
+}
+#yerler_mavi_kutu_2_ust{
+    background-image: url(turistikyerler/yer_yer_ust.png);
+    width: 382px;
+    height: 35px;
+    margin-top: 120px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#yerler_mavi_kutu_2_orta{
+    background-image: url(turistikyerler/yer_yer_orta.png);
+    width: 382px;
+    height: 343px;
+    margin-top: 155px;
+    margin-left: 20px;
+    background-repeat:repeat-y;
+    position: absolute;
+    z-index: 2;
+}
+#yerler_mavi_kutu_2_alt{
+    background-image: url(turistikyerler/yer_yer_alt.png);
+    width: 382px;
+    height: 35px;
+    margin-top: 498px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+#yerler_alt_kisim_2_alt{
+    background-image: url(turistikyerler/yer_ilk_alt.png);
+    width: 416px;
+    height: 64px;
+    margin-top: 750px;
+    margin-left: 460px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#yerler_alt_kisim_3{
+    float: left;
+    position: absolute;
+    width: 415px;
+    height: 515px;
+}
+#yerler_alt_kisim_3_ust{
+    background-image: url(turistikyerler/yer_ilk_ust.png);
+    width: 416px;
+    height: 64px;
+    margin-top: 200px;
+    margin-left: 910px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#yerler_inalti_magarasi{
+    background-image: url(turistikyerler/yer_inaltimagarasi.png);
+    width: 280px;
+    height: 145px;
+    margin-top: 30px;
+    margin-left: 60px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#yerler_alt_kisim_3_orta{
+    background-image: url(turistikyerler/yer_ilk_orta.png);
+    width: 416px;
+    height: 486px;
+    margin-top: 264px;
+    margin-left: 910px;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+#yerler_mavi_kutu_3{
+    width: 381px;
+    height: 311px;
+    position: absolute;
+}
+#yerler_mavi_kutu_3_ust{
+    background-image: url(turistikyerler/yer_yer_ust.png);
+    width: 382px;
+    height: 35px;
+    margin-top: 120px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#yerler_mavi_kutu_3_orta{
+    background-image: url(turistikyerler/yer_yer_orta.png);
+    width: 382px;
+    height: 343px;
+    margin-top: 155px;
+    margin-left: 20px;
+    background-repeat:repeat-y;
+    position: absolute;
+    z-index: 2;
+}
+#yerler_mavi_kutu_3_alt{
+    background-image: url(turistikyerler/yer_yer_alt.png);
+    width: 382px;
+    height: 35px;
+    margin-top: 498px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+}
+#yerler_alt_kisim_3_alt{
+    background-image: url(turistikyerler/yer_ilk_alt.png);
+    width: 416px;
+    height: 64px;
+    margin-top: 750px;
+    margin-left: 910px;
+    background-repeat: no-repeat;
+    position: absolute;
+}

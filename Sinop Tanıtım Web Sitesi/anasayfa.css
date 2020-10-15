@@ -1,0 +1,338 @@
+body{
+    background-image: url(anasayfa/anasayfa_arkaplan.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#banner{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+}
+#logo{
+    background-image: url(anasayfa/logo.png);
+    width: 280px;
+    height: 120px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#menu_alt_kisim{
+    position: absolute;
+    background-repeat: repeat-x;
+    left: 320px;
+    top: 0px;
+}
+#anasayfa_sol{
+    background-image: url(anasayfa/ust_menu_sol.png);
+    height: 92px;
+    position: absolute;
+    width: 39px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+}
+#anasayfa_orta{
+    background-image: url(anasayfa/ust_menu_orta.png);
+    position: absolute;
+    height: 92px;
+    width: 900px;
+    left: 39px;
+    margin-top: 40px;
+    background-repeat: repeat-x;
+}
+#menu_anasayfa_anasayfa{
+    position: absolute;
+    margin-left: 50px;
+    float: left;
+}
+#menu_anasayfa_anasayfa_sol{
+    background-image: url(anasayfa/menu_anasayfa_sol.png);
+    height: 63px;
+    width: 23px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    float: left;
+}
+#menu_anasayfa_anasayfa_orta{
+    background-image: url(anasayfa/menu_anasayfa_orta.png);
+    height: 63px;
+    width: 160px;
+    left: 23px;
+    position: absolute;
+    background-repeat: repeat-x;
+    margin-top: 15px;
+    float: left;
+}
+#menu_anasayfa_anasayfa_sağ{
+    background-image: url(anasayfa/menu_anasayfa_sag.png);
+    height: 63px;
+    width: 160px;
+    left: 183px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    float: left;
+}
+#menu_anasayfa_fotogaleri{
+    margin-left: 100px;
+    position: absolute;
+    height: 63px;
+    margin-top: 15px;
+    float: left;
+    left: 200px;
+}
+#menu_anasayfa_fotogaleri_sol{
+    background-image: url(anasayfa/menu_foto_sol.png);
+    width: 23px;
+    height: 63px;
+    background-repeat: no-repeat;
+    float: left;
+}
+#menu_anasayfa_fotogaleri_orta{
+    background-image: url(anasayfa/menu_foto_orta.png);
+    height: 63px;
+    width: 200px;
+    left: 23px;
+    position: absolute;
+    background-repeat: repeat-x;
+    float: left;
+}
+#menu_anasayfa_fotogaleri_sağ{
+    background-image: url(anasayfa/menu_foto_sağ.png);
+    width: 23px;
+    height: 63px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    float: left;
+}
+#menu_anasayfa_turistikyer{
+    margin-left: 100px;
+    position: absolute;
+    height: 63px;
+    margin-top: 15px;
+    float: left;
+    left: 490px;
+}
+#menu_anasayfa_tyer_orta{
+    background-image: url(anasayfa/menu_yer_orta.png);
+    height: 63px;
+    width: 200px;
+    left: 23px;
+    position: absolute;
+    background-repeat: repeat-x;
+    float: left;
+}
+#menu_anasayfa_tyer_sağ{
+    background-image: url(anasayfa/menu_yer_sağ.png);
+    width: 23px;
+    height: 63px;
+    margin-left: 200px;
+    background-repeat: no-repeat;
+    float: left;
+}
+#menu_anasayfa_tyer_sol{
+    background-image: url(anasayfa/menu_yer_sol.png);
+    width: 23px;
+    height: 63px;
+    background-repeat: no-repeat;
+    float: left;
+}
+a{
+    font-size: 24px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    float:left;
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:visited:hover{
+    color: blue;
+}
+#anasayfa_sag{
+    background-image: url(anasayfa/ust_menu_sağ.png);
+    height: 92px;
+    position: relative;
+    left: 939px;
+    width: 39px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+}
+#anasayfa_hakkinda{
+    margin-top:150px;
+    float: left;
+    height: 400px;
+    width: 633px;
+    margin-left: 20px;
+}
+#anasayfa_hakkinda_ust{
+    background-image: url(anasayfa/anasayfa_hakkinda_ust.png);
+    height: 56px;
+    width: 633px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left: 20px;
+}
+#anasayfa_hakkinda_orta{
+    background-image: url(anasayfa/anasayfa_hakkinda_orta.png);
+    margin-left: 20px;
+    margin-top: 86px;
+    width: 633px;
+    height: 440px;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+p{
+    font-size: 14px;
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#anasayfa_hakkinda_alt{
+    background-image: url(anasayfa/anasayfa_hakkinda_alt.png);
+    height: 56px;
+    width: 633px;
+    margin-top: 526px;
+    margin-left: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#anasayfa_bilgiler{
+    margin-top:150px;
+    float: left;
+    height: 400px;
+    width: 633px;
+    margin-left: 50px;
+}
+#anasayfa_bilgiler_ust{
+    background-image: url(anasayfa/anasayfa_bilgiler_ust.png);
+    height: 56px;
+    width: 633px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#anasayfa_bilgiler_orta{
+    background-image: url(anasayfa/anasayfa_bilgiler_orta.png);
+    margin-left: 20px;
+    margin-top: 86px;
+    width: 633px;
+    height: 440px;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+#anasayfa_bilgiler_nufus{
+    float: left;
+    margin-left: 20px;
+    position: absolute;
+}
+h3{
+    text-align: center;
+    margin-left: 20px;
+}
+#anasayfa_bilgiler_nufus_foto{
+    background-image: url(anasayfa/anasayfa_nufus.png);
+    margin-left: 20px;
+    height: 195px;
+    width: 160px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#anasayfa_bilgiler_harita{
+    float: left;
+    margin-left: 230px;
+    position: absolute;
+}
+#anasayfa_bilgiler_harita_foto{
+    background-image: url(anasayfa/anasayfa_harita.png);
+    margin-left: 20px;
+    height: 195px;
+    width: 285px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#anasayfa_bilgiler_bolge{
+    float: left;
+    margin-top: 300px;
+    margin-left: 20px;
+    position: absolute;
+}
+#anasayfa_bilgiler_bolge_foto{
+    background-image: url(anasayfa/anasayfa_bolge.png);
+    margin-left: 20px;
+    height: 195px;
+    width: 285px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+#anasayfa_bilgiler_uydu{
+    float: left;
+    margin-left: 270px;
+    margin-top: 300px;
+    position: absolute;
+}
+#anasayfa_bilgiler_uydu_foto{
+    background-image: url(anasayfa/anasayfa_uydu.png);
+    margin-left: 40px;
+    height: 195px;
+    width: 285px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+#anasayfa_bilgiler_alt{
+    background-image: url(anasayfa/anasayfa_bilgiler_alt.png);
+    height: 56px;
+    width: 633px;
+    margin-top: 526px;
+    margin-left: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#alt_cubuk{
+    float: left;
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 200px;
+}
+#alt_cubuk_sol{
+    background-image: url(anasayfa/altkutu_sol.png);
+    width: 55px;
+    height: 95px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#alt_cubuk_orta{
+    background-image: url(anasayfa/altkutu_orta.png);
+    width: 838px;
+    height: 95px;
+    margin-left: 54px;
+    margin-top: 20px;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+#alt_cubuk_sag{
+    background-image: url(anasayfa/altkutu_sag.png);
+    width: 55px;
+    height: 95px;
+    margin-top: 20px;
+    margin-left: 892px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
